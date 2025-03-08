@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="image.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="banner" id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="c2.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Capture 4.png" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="c2.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    <section class="about-section py-5 " id="about">
+        <div class="container">
+            <h2 class=" text-center mb-4">About Us</h2>
+            <div class="row d-flex flex-lg-row flex-column-reverse align-items-start">
+                <div class="col-lg-6">
+                    <p>URBTECH is a Premier Real Estate Development group of NCR and have a Versatile Portfolio in Real Estate Development in the field of Housing & IT Parks. The group is owned by experienced professionals who are famous for their Innovative thinking & who have passionate commitment to bring world class technology, ideas & designs for improving the quality of life in & around the Catchment areas of their developments. With its deep-rooted foundation of Ethics & Values, the group is stressing towards unprecedented achievements & growth.</p>
+               
+                  
+                    <p>The Group are the Developers of NPX (IT PARK) and Xavier’s Residential which is a landmark development.</p>
+                    <div class="">
+                        <button > <a href="https://urbtechindia.com/"> Read More </a></button>
+                    </div>
+                </div>
+              
+                <div class="col-lg-6">
+                    <img src="c2.jpg" alt="About Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Contact-us" id="contact">
+        <section class="contact-section">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <div class="contact-container">
+                    <!-- Left: Company Info -->
+                    <div class="contact-info">
+                        <h4><i class="fas fa-map-marker-alt"></i> Address</h4>
+                        <p>71 Pilgrim Avenue, Chevy Chase, MD 20815</p>
+    
+                        <h4><i class="fas fa-phone"></i> Phone</h4>
+                        <p>+713-621-7636</p>
+    
+                        <h4><i class="fas fa-envelope"></i> Email</h4>
+                        <p>Thompson@dayrep.com</p>
+                    </div>
+    
+                    <!-- Right: Contact Form -->
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-control" id="interest">
+                                        <option>I'm interested in buying a home</option>
+                                        <option>I'm interested in selling my property</option>
+                                        <option>General Inquiry</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="col-12 text-end">
+                                    <button type="submit" class="btn btn-submit">SEND US A MESSAGE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <a class="footer-brand" href="#">
+                        <img src="image.png" alt="Logo">
+                    </a>
+                    <p>Urbtech India Developers<br>
+                        <b>Location :</b> Urbtech Trade Centre, Adjacent DPS School
+                        35, B Block, Sector 132, Noida, Uttar Pradesh-201304</p>
+                    <p><strong>Call :</strong> +91 987 373 2836</p>
+                    <p><strong>Email:</strong>Sales: salesurbtech@urbtechindia.com
+                          Information: info@urbtechindia.com</p>
+                   
+                </div>
+                <div class="footer-section">
+                    <h5>Useful Links</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section ">
+                    <h5>Stay Connected</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#"><i class="fab fa-instagram "></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-facebook "></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin "></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2024 <strong>Urbtech India Developers Pvt. Ltd. </strong>. All Rights Reserved </p>
+                <p><a href="#">| Privacy Policy | </a><a href="#">Disclaimer</a></p>
+              
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        window.addEventListener('scroll', function() {
+            let navbar = document.querySelector('.navbar');
+            if (window.scrollY > window.innerHeight - 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

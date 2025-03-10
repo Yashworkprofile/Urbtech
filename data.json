@@ -1,0 +1,88 @@
+[
+    {
+        "id": "1",
+        "title": "Urbtech One 27",
+        "image": "c2.jpg",
+        "description": "Welcome to Urbtech One 27, a premium corporate destination in Noida Sector 127...",
+        "location": "Sector 127, Noida",
+        "features": [
+            "Prime Location – Seamlessly connected to Delhi, Noida Expressway & Metro.",
+            "Premium Office Spaces – Flexible layouts to suit startups, SMEs & enterprises.",
+            "Modern Infrastructure – High-speed elevators, power backup, & cutting-edge security.",
+            "Business-Friendly Amenities – Conference rooms, cafes, & ample parking."
+        ],
+        "link": "https://example.com/urbtech-one-27" 
+    },
+    {
+        "id": "2",
+        "title": "Urbtech Mpire",
+        "image": "Capture 4.png",
+        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
+        "location": "Okhla, South Delhi",
+        "features": [
+            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
+            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
+            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
+            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+        ],
+        "link": "https://example.com/urbtech-mpire" 
+    }
+    ,
+    {
+        "id": "3",
+        "title": "Urbtech Mpire",
+        "image": "Capture 4.png",
+        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
+        "location": "Okhla, South Delhi",
+        "features": [
+            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
+            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
+            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
+            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+        ],
+        "link": "https://example.com/urbtech-mpire" 
+    }
+    ,
+    {
+        "id": "4",
+        "title": "Urbtech Mpire",
+        "image": "Capture 4.png",
+        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
+        "location": "Okhla, South Delhi",
+        "features": [
+            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
+            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
+            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
+            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+        ],
+        "link": "https://example.com/urbtech-mpire" 
+    },
+    {
+        "id": "5",
+        "title": "Urbtech Mpire",
+        "image": "Capture 4.png",
+        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
+        "location": "Okhla, South Delhi",
+        "features": [
+            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
+            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
+            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
+            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+        ],
+        "link": "https://example.com/urbtech-mpire" 
+    },
+    {
+        "id": "6",
+        "title": "Urbtech Mpire",
+        "image": "Capture 4.png",
+        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
+        "location": "Okhla, South Delhi",
+        "features": [
+            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
+            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
+            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
+            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+        ],
+        "link": "https://example.com/urbtech-mpire" 
+    }
+]

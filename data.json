@@ -2,87 +2,176 @@
     {
         "id": "1",
         "title": "Urbtech One 27",
-        "image": "c2.jpg",
-        "description": "Welcome to Urbtech One 27, a premium corporate destination in Noida Sector 127...",
+        "image": "assets/One27.jpg",
+        "tagline": "A landmark IT parks project by URBTECH,offering world-class infrastructure",
+        "description": "Welcome to Urbtech One 27, a premium corporate destination in Noida Sector 127. Developed by URBTECH, a premier real estate group known for innovative thinking and world-class technology, this project is designed to enhance the quality of life in its catchment areas. With a versatile portfolio in housing and IT parks, URBTECH brings cutting-edge infrastructure and eco-friendly designs to this landmark development.",
         "location": "Sector 127, Noida",
+        "status": "Newly Launched",
         "features": [
             "Prime Location – Seamlessly connected to Delhi, Noida Expressway & Metro.",
             "Premium Office Spaces – Flexible layouts to suit startups, SMEs & enterprises.",
             "Modern Infrastructure – High-speed elevators, power backup, & cutting-edge security.",
-            "Business-Friendly Amenities – Conference rooms, cafes, & ample parking."
+            "Business-Friendly Amenities – Conference rooms, cafes, & ample parking.",
+            "World-Class Infrastructure – True walk-to-work environment with 24x7 operational support.",
+            "Eco-Friendly Design – Rainwater harvesting and energy-efficient systems.",
+            "Double Glass Facade – Enhances aesthetics and energy efficiency.",
+            "Optic Fibre Connectivity – High-speed internet for seamless operations.",
+            "Double Basement Parking – Ample parking space for convenience.",
+            "RCC Structure – Designed as per seismic zone requirements for safety."
         ],
-        "link": "https://example.com/urbtech-one-27" 
+        "link": "https://example.com/urbtech-one-27"
     },
     {
         "id": "2",
         "title": "Urbtech Mpire",
-        "image": "Capture 4.png",
-        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
-        "location": "Okhla, South Delhi",
+        "image": "assets/Impire.png",
+        "tagline": "Redefining luxury workspaces in South Delhi’s prime business hub.",
+        "description": "Welcome to Urbtech Mpire, a premium corporate landmark in Okhla, South Delhi. Designed for ambitious enterprises and professionals, this luxurious tower blends elegance, innovation, and functionality, setting a new benchmark for office spaces.",
+        "location": "Okhla Phase 2, New Delhi",
+        "status": "Newly Launched",
         "features": [
-            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
-            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
-            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
-            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+            "Luxurious Office Spaces – Tailored for IT professionals, CAs, and architects.",
+            "Modern Infrastructure – RCC/steel structure with high-speed lifts and VRV/VRF AC systems.",
+            "Advanced Security – CCTV surveillance, boom barriers, and perimeter security.",
+            "Fire Safety – Wet risers, sprinklers, fire hydrants, and detection systems.",
+            "Efficient Parking – Multi-level basements and surface parking as per norms.",
+            "Landscaped Areas – Plaza with water bodies on the ground and top floors.",
+            "High-Speed Connectivity – Intelligent metering system and optic fibre connectivity.",
+            "Elegant Finishes – Premium exterior and interior finishes with modern fittings."
         ],
-        "link": "https://example.com/urbtech-mpire" 
+        "link": "https://urbtechindia.com/projects/urbtech-mpire/"
     }
     ,
     {
         "id": "3",
-        "title": "Urbtech Mpire",
-        "image": "Capture 4.png",
-        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
-        "location": "Okhla, South Delhi",
+        "title": "NPX Tower",
+        "image": "assets/NPX-tower.jpg",
+        "tagline": "A modern business hub in Noida, designed for innovation and growth.",
+        "description": "NPX Tower, located in Sector 153, Noida, is a state-of-the-art retail and office complex designed by renowned architects DFA. Strategically positioned on the Noida Expressway, it offers a perfect blend of modernity, functionality, and accessibility. With its proximity to residential townships and an upcoming metro station, NPX Tower is the ultimate destination for businesses seeking world-class infrastructure and amenities.",
+        "location": "Sector 153, Noida",
+        "status": "Ready to Move",
         "features": [
-            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
-            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
-            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
-            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+            "Prime Location – Situated on Noida Expressway with easy metro connectivity.",
+            "Modern Architecture – Designed by DFA for hi-tech commercial spaces.",
+            "Spacious Layout – Ground + 16 floors with a built-up area of 1 million sq. ft.",
+            "Diverse Zones – Retail, corporate offices, serviced suites, and food courts.",
+            "Double Basement Parking – Ample parking space for convenience.",
+            "World-Class Amenities – Includes creative arena, auditorium, gaming zone, and banks/ATMs.",
+            "Accessibility – Adjacent to 400 acres of residential townships and upcoming metro station.",
+            "Future-Ready – Designed to cater to the evolving needs of modern businesses."
         ],
-        "link": "https://example.com/urbtech-mpire" 
+        "link": "https://urbtechindia.com/projects/npx-tower/"
     }
     ,
     {
         "id": "4",
-        "title": "Urbtech Mpire",
-        "image": "Capture 4.png",
-        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
-        "location": "Okhla, South Delhi",
+        "title": "Urbtech Trade Centre",
+        "image": "assets/UTC-Banner.jpg",
+        "tagline": "A landmark commercial destination in Noida, redefining modern workspaces.",
+        "description": "Welcome to Urbtech Trade Centre, an ultra-modern commercial marvel in Sector 132, Noida. Designed for both shoppers and businesses, this iconic development offers a perfect blend of luxury, convenience, and innovation. With its strategic location, world-class infrastructure, and integrated amenities, Urbtech Trade Centre sets new benchmarks for commercial and office spaces.",
+        "location": "Sector 132, Noida",
+        "status": "Ready to Move",
         "features": [
-            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
-            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
-            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
-            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+            "Prime Location – Strategically located on Noida Expressway with high visibility.",
+            "World-Class Infrastructure – Centrally air-conditioned, Wi-Fi enabled, and eco-friendly.",
+            "Ready-to-Move Offices – Fully equipped service offices and business suites.",
+            "Integrated Amenities – Food courts, banks, ATMs, and recreational facilities.",
+            "Green Environment – Rainwater harvesting, lush landscaping, and water bodies.",
+            "State-of-the-Art Security – CCTV surveillance, access control, and fire safety systems.",
+            "Efficient Design – Wide column spans, optic fibre connectivity, and energy-efficient systems.",
+            "Recreational Facilities – Club with swimming pool, gym, spa, and snooker tables."
         ],
-        "link": "https://example.com/urbtech-mpire" 
+        "link": "https://urbtechindia.com/projects/utc-project/"
     },
     {
         "id": "5",
-        "title": "Urbtech Mpire",
-        "image": "Capture 4.png",
-        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
-        "location": "Okhla, South Delhi",
+        "title": "NPX IT Suites",
+        "image": "assets/NPX-IT-Suits.jpg",
+        "tagline": "Fully furnished IT suites on Noida Expressway, designed for work, travel, and relaxation.",
+        "description": "Experience ready-to-move IT suites in Sector 153, Noida, offering seamless connectivity, modern infrastructure, and premium amenities. Designed for IT professionals, these suites feature high-speed Wi-Fi, dedicated lifts, a luxurious club, and a swimming pool. With an exclusive reception area, lounge seating, and a green-certified building, this project redefines commercial workspaces.",
+        "location": "Sector 153, Noida",
+        "status": "Ready to Move",
         "features": [
-            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
-            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
-            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
-            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+            "Prime Location – Strategically located on Noida Expressway with excellent connectivity.",
+            "Fully Furnished IT Suites – Ready-to-move workspaces with high-speed Wi-Fi.",
+            "Work, Travel & Relax – Integrated with a club, swimming pool, and recreational facilities.",
+            "Exclusive Reception & Lounge – Dedicated meeting areas for professionals.",
+            "High-Speed Elevators – Four dedicated lifts for seamless movement.",
+            "Adequate Parking – Separate lobby and ample car parking space.",
+            "Green Building Certified – Award-winning eco-friendly infrastructure.",
+            "Branded Eateries – On-site restaurants including Bikanervala and Dominos.",
+            "Metro Connectivity – Well-connected to metro and upcoming Jewar Airport.",
+            "5-Star Security – Secure entry with separate card access and surveillance."
         ],
-        "link": "https://example.com/urbtech-mpire" 
-    },
+        "link": "https://urbtechindia.com/projects/npx-it-suites"
+    }
+    ,
     {
         "id": "6",
-        "title": "Urbtech Mpire",
-        "image": "Capture 4.png",
-        "description": "Urbtech Mpire – Redefining Luxury Workspaces in South Delhi!...",
-        "location": "Okhla, South Delhi",
+        "title": "Sanjeevani Homes",
+        "image": "assets/Sanjeevani-Homes.jpg",
+        "tagline": "A serene residential plotted development in Faridabad, blending nature with urban living.",
+        "description": "Sanjeevani Homes offers a unique residential plotted development in Sector 139, Faridabad, spread across 6 acres. Designed for peaceful living, it provides ample space to build your dream home while enjoying modern amenities and seamless connectivity. With a secure gated community, lush green surroundings, and excellent infrastructure, this project is ideal for those seeking a tranquil yet well-connected lifestyle.",
+        "location": "Sector 139, Faridabad, Haryana",
+        "status": "Possession Offered",
         "features": [
-            "Prestigious Location – Strategically placed in Okhla, South Delhi.",
-            "Luxurious Office Spaces – Thoughtfully designed workspaces with modern architecture.",
-            "Smart Business Infrastructure – High-speed elevators, cutting-edge security.",
-            "Exclusive Amenities – Sky lounges, grand lobbies, conference halls."
+            "Prime Location – Well connected to major destinations, just 5 minutes from DMIC Expressway/Faridabad Bypass.",
+            "Flexible Plot Sizes – Options for sprawling villas or cozy bungalows to suit diverse needs.",
+            "Gated Community – Secured living with controlled access and round-the-clock security.",
+            "Lush Green Surroundings – Designed for a peaceful lifestyle amidst nature.",
+            "Kids Play Area – Safe and engaging spaces for children to play and grow.",
+            "Concrete Paver Roads – Durable and well-planned road infrastructure.",
+            "Power Backup – Uninterrupted electricity supply for a hassle-free living experience.",
+            "Investment Potential – A promising real estate opportunity with excellent connectivity."
         ],
-        "link": "https://example.com/urbtech-mpire" 
+        "link": "https://urbtechindia.com/projects/sanjeevani-homes"
+    },
+    {
+        "id": "7",
+        "title": "Urbtech Hilston",
+        "image": "assets/Hilston-Project.jpg",
+        "tagline": "A township that blends contemporary living with an energized sporty lifestyle.",
+        "description": "Urbtech Hilston, located in Sector 79, Noida, is a part of the 180-acre Sports City, designed for holistic living. Spread over 6 acres, this township offers a perfect balance of luxury and fitness, featuring 8 luxury towers and an iconic tower with spacious 2/3/4 BHK apartments. With world-class sports facilities, green surroundings, and premium amenities, Hilston redefines modern urban living.",
+        "location": "Sector 79, Noida",
+        "status": "Sold Out",
+        "features": [
+            "Prime Location – Part of Noida's Sports City, offering an active and green lifestyle.",
+            "Spacious Apartments – 2/3/4 BHK luxury apartments with airy balconies and double-height lobbies.",
+            "Swimming Center – Exclusive pool area for residents.",
+            "Fitness & Wellness – State-of-the-art gym, health center, yoga, and meditation zones.",
+            "World-Class Sports Facilities – Cricket stadium & academy, badminton, tennis, gymnastics, rock climbing, and multi-purpose playfield.",
+            "Indoor & Outdoor Sports – Volleyball, basketball, squash, table tennis, and a 9-hole golf course.",
+            "Family-Friendly Amenities – Kids’ play area and recreational spaces.",
+            "Seamless Connectivity – Well-connected to major city hubs and urban infrastructure."
+        ],
+        "link": "https://urbtechindia.com/projects/hilston"
+    },
+    
+    
+    {
+        "id": "8",
+        "title": "Urbtech Matrix Tower",
+        "image": "assets/Matrix-Project.jpg",
+        "tagline": "A premium commercial hub offering modern office and retail spaces.",
+        "description": "Urbtech Matrix Tower, located in Sector 132, Noida, is a prestigious commercial development by Urbtech India Developers. Designed to provide an efficient workspace, it offers skillfully designed office spaces, retail shops, and commercial units. With a well-connected location and essential amenities, Matrix Tower ensures a seamless working environment complemented by nearby schools, hospitals, parks, and shopping centers.",
+        "location": "Sector 132, Noida",
+        "status": "Sold Out",
+        "features": [
+            "Strategic Location – Situated in Sector 132, with easy access to major city hubs.",
+            "Modern Infrastructure – 2B+G+8 floors of well-designed commercial spaces.",
+            "24Hr Backup Electricity – Uninterrupted power supply for seamless operations.",
+            "Wi-Fi Enabled Campus – High-speed connectivity for all businesses.",
+            "Advanced Security – 3-tier security system with CCTV monitoring.",
+            "Earthquake Resistant – Designed for maximum safety and durability.",
+            "Ample Parking – Dedicated car parking for visitors and employees.",
+            "Business-Friendly Amenities – Includes ATM, cafeteria, and party area.",
+            "Fire Safety – Equipped with an advanced fire-fighting system.",
+            "Vaastu Compliant – Designed to promote harmony and prosperity."
+        ],
+        "link": "https://urbtechindia.com/projects/matrix-tower"
     }
+   
+    
+    
+    
 ]

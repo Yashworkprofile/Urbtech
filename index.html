@@ -8,7 +8,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <style>
+        /* Carousel controls optimized for dark background */
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 1;
+            transition: all 0.3s ease;
+            border: 2px solid #ffffff; /* White border for extra contrast */
+        }
+        
+        /* Customize icons with dark color for contrast against white background */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            width: 30px;
+            height: 30px;
+            background-size: 100%, 100%;
+            /* Dark gray icon */
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23202020'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+        }
+        
+        /* Next icon (right arrow) */
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23202020'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+        
+        /* Hover effect */
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+            background-color: #ffffff; /* Full white on hover */
+            border-color: #e0e0e0;
+            transform: translateY(-50%) scale(1.1); /* Slight scale up on hover */
+        }
+        
+        /* Keep hidden functionality */
+        .carousel-control-prev.hidden,
+        .carousel-control-next.hidden {
+            display: none;
+        }
+        
+        /* Ensure buttons are positioned outside the carousel content */
+        .carousel-control-prev {
+            left: -60px; /* Move outside the carousel */
+        }
+        
+        .carousel-control-next {
+            right: -60px; /* Move outside the carousel */
+        }
+        </style>
 </head>
 <body>
     <header>
@@ -82,7 +134,7 @@
                 </div>
               
                 <div class="col-lg-6">
-                    <img src="assets/One27.jpg" alt="About Image" class="img-fluid">
+                    <img src="assets/Impire.jpg" alt="About Image" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -135,15 +187,18 @@
               
                 <div class="contact-form">
                     <form id="contact-form">
-                        <div class="form-group name-group">
+                        <div class="form-group ">
+                            <label>Full Name</label>
+                            <div class="name-group">
                             <div>
-                                <label>First Name</label>
+                                <!-- <label>First Name</label> -->
                                 <input type="text" placeholder="First Name" id="first-name" required>
                             </div>
                             <div>
-                                <label>Last Name</label>
+                                <!-- <label>Last Name</label> -->
                                 <input type="text" placeholder="Last Name" id="last-name" required>
                             </div>
+                        </div>
                         </div>
                 
                         <div class="form-group">

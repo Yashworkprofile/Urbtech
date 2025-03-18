@@ -337,7 +337,7 @@ body {
 
 .contact-section {
     position: relative;
-    background: url('assets/One27.jpg') center/cover no-repeat;
+    background: url('assets/Impire.jpg') center/cover no-repeat;
     padding: 50px 0; /* Reduced padding for smaller screens */
 }
 
@@ -426,7 +426,10 @@ body {
 }
 .name-group {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+}
+.name-group div{
+    width: 100%;
 }
 .name-group input {
     width: 100%;

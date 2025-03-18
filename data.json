@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Urbtech One 27",
-        "image": "assets/One27.jpg",
+        "image": "assets/One27.png",
         "tagline": "A landmark IT parks project by URBTECH,offering world-class infrastructure",
         "description": "Welcome to Urbtech One 27, a premium corporate destination in Noida Sector 127. Developed by URBTECH, a premier real estate group known for innovative thinking and world-class technology, this project is designed to enhance the quality of life in its catchment areas. With a versatile portfolio in housing and IT parks, URBTECH brings cutting-edge infrastructure and eco-friendly designs to this landmark development.",
         "location": "Sector 127, Noida",
@@ -24,7 +24,7 @@
     {
         "id": "2",
         "title": "Urbtech Mpire",
-        "image": "assets/Impire.png",
+        "image": "assets/Impire.jpg",
         "tagline": "Redefining luxury workspaces in South Delhi’s prime business hub.",
         "description": "Welcome to Urbtech Mpire, a premium corporate landmark in Okhla, South Delhi. Designed for ambitious enterprises and professionals, this luxurious tower blends elegance, innovation, and functionality, setting a new benchmark for office spaces.",
         "location": "Okhla Phase 2, New Delhi",
@@ -129,11 +129,11 @@
     {
         "id": "7",
         "title": "Urbtech Hilston",
-        "image": "assets/Hilston-Project.jpg",
+        "image": "assets/Hilston-Overview.jpg",
         "tagline": "A township that blends contemporary living with an energized sporty lifestyle.",
         "description": "Urbtech Hilston, located in Sector 79, Noida, is a part of the 180-acre Sports City, designed for holistic living. Spread over 6 acres, this township offers a perfect balance of luxury and fitness, featuring 8 luxury towers and an iconic tower with spacious 2/3/4 BHK apartments. With world-class sports facilities, green surroundings, and premium amenities, Hilston redefines modern urban living.",
         "location": "Sector 79, Noida",
-        "status": "Sold Out",
+        "status": "Delivered and Sold Out",
         "features": [
             "Prime Location – Part of Noida's Sports City, offering an active and green lifestyle.",
             "Spacious Apartments – 2/3/4 BHK luxury apartments with airy balconies and double-height lobbies.",
@@ -155,7 +155,7 @@
         "tagline": "A premium commercial hub offering modern office and retail spaces.",
         "description": "Urbtech Matrix Tower, located in Sector 132, Noida, is a prestigious commercial development by Urbtech India Developers. Designed to provide an efficient workspace, it offers skillfully designed office spaces, retail shops, and commercial units. With a well-connected location and essential amenities, Matrix Tower ensures a seamless working environment complemented by nearby schools, hospitals, parks, and shopping centers.",
         "location": "Sector 132, Noida",
-        "status": "Sold Out",
+        "status": "Delivered and Sold Out",
         "features": [
             "Strategic Location – Situated in Sector 132, with easy access to major city hubs.",
             "Modern Infrastructure – 2B+G+8 floors of well-designed commercial spaces.",
@@ -169,7 +169,35 @@
             "Vaastu Compliant – Designed to promote harmony and prosperity."
         ],
         "link": "https://urbtechindia.com/projects/matrix-tower"
+    },
+    {
+        "id": "9",
+        "title": "Urbtech Intellect Park",
+        "image": "assets/Intellect-Park.png",
+        "tagline": "A prime commercial address designed for business excellence.",
+        "description": "Urbtech Intellect Park, the commercial space is spread over an area of 1.26 acres and situated at a prime location of Sector-125. Urbtech Intellect Park is brought to us by the team of Urbtech India. The prime requirement of any business to flourish is its address. The address of Urbtech Intellect Park is one such address in Noida, which can set new goals and raise the standards of your business to reach great heights.",
+        "location": "Sector 125, Noida",
+        "status": "Delivered and Sold Out",
+        "features": [
+            "24Hr Backup Electricity – Uninterrupted power supply for seamless operations.",
+            "Wi-Fi Enabled Campus – High-speed connectivity for all businesses.",
+            "Air Conditioning – Fully air-conditioned workspaces for enhanced comfort.",
+            "Rain Water Harvesting – Sustainable water management system.",
+            "CCTV Cameras – Comprehensive surveillance for security.",
+            "Earthquake Resistant – Designed for structural durability and safety.",
+            "3-Tier Security System – Advanced security with CCTV monitoring.",
+            "Lifts/Elevators – Efficient vertical mobility across floors.",
+            "Covered Car Parking – Ample parking space for employees and visitors.",
+            "ATM – On-site banking convenience for businesses.",
+            "Party Area – Dedicated space for corporate gatherings.",
+            "Fire Fighting System – Advanced fire safety measures.",
+            "Cafeteria – Well-equipped dining facilities.",
+            "Intercom Facility – Seamless internal communication.",
+            "Vaastu Compliant – Designed to promote harmony and success."
+        ],
+        "link": "https://urbtechindia.com/projects/intellect-park"
     }
+    
    
     
     

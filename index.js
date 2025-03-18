@@ -58,6 +58,37 @@ fetch("data.json")
         carouselItem.appendChild(row);
         carouselInner.appendChild(carouselItem);
     }
+        const carousel = document.querySelector('#propertyCarousel');
+        const prevButton = carousel.querySelector('.carousel-control-prev');
+        const nextButton = carousel.querySelector('.carousel-control-next');
+        const totalItems = carousel.querySelectorAll('.carousel-item').length;
+
+        function updateNavigationButtons(activeIndex) {
+            // Hide prev button on first slide
+            if (activeIndex === 0) {
+                prevButton.classList.add('hidden');
+            } else {
+                prevButton.classList.remove('hidden');
+            }
+
+            // Hide next button on last slide
+            if (activeIndex === totalItems - 1) {
+                nextButton.classList.add('hidden');
+            } else {
+                nextButton.classList.remove('hidden');
+            }
+        }
+
+        // Initialize button states
+        updateNavigationButtons(0);
+
+        // Update buttons when slide changes
+        carousel.addEventListener('slid.bs.carousel', function (e) {
+            const activeIndex = Array.from(carousel.querySelectorAll('.carousel-item'))
+                .indexOf(carousel.querySelector('.carousel-item.active'));
+            updateNavigationButtons(activeIndex);
+        });
+   
 
   
     document.querySelectorAll(".learn-more").forEach((button) => {

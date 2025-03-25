@@ -1,6 +1,27 @@
 [
     {
         "id": "1",
+        "title": "Urbtech Mpire",
+        "image": "assets/Impire.jpg",
+        "tagline": "Redefining luxury workspaces in South Delhi’s prime business hub.",
+        "description": "Welcome to Urbtech Mpire, a premium corporate landmark in Okhla, South Delhi. Designed for ambitious enterprises and professionals, this luxurious tower blends elegance, innovation, and functionality, setting a new benchmark for office spaces.",
+        "location": "Okhla Phase 2, New Delhi",
+        "status": "Newly Launched",
+        "features": [
+            "Luxurious Office Spaces – Tailored for IT professionals, CAs, and architects.",
+            "Modern Infrastructure – RCC/steel structure with high-speed lifts and VRV/VRF AC systems.",
+            "Advanced Security – CCTV surveillance, boom barriers, and perimeter security.",
+            "Fire Safety – Wet risers, sprinklers, fire hydrants, and detection systems.",
+            "Efficient Parking – Multi-level basements and surface parking as per norms.",
+            "Landscaped Areas – Plaza with water bodies on the ground and top floors.",
+            "High-Speed Connectivity – Intelligent metering system and optic fibre connectivity.",
+            "Elegant Finishes – Premium exterior and interior finishes with modern fittings."
+        ],
+        "link": "https://urbtechindia.com/projects/urbtech-mpire/"
+    }
+    ,
+    {
+        "id": "2",
         "title": "Urbtech One 27",
         "image": "assets/One27.png",
         "tagline": "A landmark IT parks project by URBTECH,offering world-class infrastructure",
@@ -21,27 +42,7 @@
         ],
         "link": "https://example.com/urbtech-one-27"
     },
-    {
-        "id": "2",
-        "title": "Urbtech Mpire",
-        "image": "assets/Impire.jpg",
-        "tagline": "Redefining luxury workspaces in South Delhi’s prime business hub.",
-        "description": "Welcome to Urbtech Mpire, a premium corporate landmark in Okhla, South Delhi. Designed for ambitious enterprises and professionals, this luxurious tower blends elegance, innovation, and functionality, setting a new benchmark for office spaces.",
-        "location": "Okhla Phase 2, New Delhi",
-        "status": "Newly Launched",
-        "features": [
-            "Luxurious Office Spaces – Tailored for IT professionals, CAs, and architects.",
-            "Modern Infrastructure – RCC/steel structure with high-speed lifts and VRV/VRF AC systems.",
-            "Advanced Security – CCTV surveillance, boom barriers, and perimeter security.",
-            "Fire Safety – Wet risers, sprinklers, fire hydrants, and detection systems.",
-            "Efficient Parking – Multi-level basements and surface parking as per norms.",
-            "Landscaped Areas – Plaza with water bodies on the ground and top floors.",
-            "High-Speed Connectivity – Intelligent metering system and optic fibre connectivity.",
-            "Elegant Finishes – Premium exterior and interior finishes with modern fittings."
-        ],
-        "link": "https://urbtechindia.com/projects/urbtech-mpire/"
-    }
-    ,
+    
     {
         "id": "3",
         "title": "NPX Tower",

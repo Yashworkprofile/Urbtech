@@ -99,33 +99,87 @@ fetch("data.json")
 
 emailjs.init("uoGN2rOUYPf9cWmAN");
 
-
 document.addEventListener("DOMContentLoaded", function () {
-const contactForm = document.getElementById("contact-form");
+    const contactForm = document.getElementById("contact-form");
+    const otherRadio = document.getElementById("other");
+    const otherMessageGroup = document.getElementById("other-message-group");
+    const otherMessageField = document.getElementById("other-message");
+    const submitBtn = document.querySelector(".submit-btn");
+    
+    let isSubmitting = false; 
 
-contactForm.addEventListener("submit", function (event) {
-event.preventDefault();
+    // Handle radio button changes
+    document.querySelectorAll('input[name="occupancy"]').forEach(radio => {
+        radio.addEventListener('change', function() {
+            otherMessageGroup.style.display = this.value === 'Other' ? 'block' : 'none';
+            if (this.value !== 'Other') {
+                otherMessageField.value = '';
+            }
+        });
+    });
 
-const formData = {
-    first_name: document.getElementById("first-name").value,
-    last_name: document.getElementById("last-name").value,
-    email: document.getElementById("email").value,
-    phone: document.getElementById("phone").value,
-    property: document.getElementById("Property").value,
-    message: document.getElementById("message").value,
-};
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
 
-emailjs
-    .send("service_lzxuyvi", "template_ergmivp", formData)
-    .then(
-        function (response) {
-            alert("Message sent successfully!");
-            contactForm.reset();
-        },
-        function (error) {
-            alert("Failed to send message. Please try again.");
-            console.error("EmailJS error:", error);
+        // Prevent multiple submissions
+        if (isSubmitting) {
+            alert("Please wait, your previous submission is being processed");
+            return;
         }
-    );
-});
+
+        // Get the selected occupancy status
+        const occupancyElement = document.querySelector('input[name="occupancy"]:checked');
+        
+        // Validate that an option is selected
+        if (!occupancyElement) {
+            alert("Please select an occupancy status");
+            return;
+        }
+
+        const occupancyStatus = occupancyElement.value;
+        const finalOccupancyValue = occupancyStatus === 'Other' 
+            ? otherMessageField.value.trim() 
+            : occupancyStatus;
+
+        // Validate other message if "Other" is selected
+        if (occupancyStatus === 'Other' && !finalOccupancyValue) {
+            alert("Please specify your occupancy status");
+            return;
+        }
+
+        // Prepare form data
+        const formData = {
+            first_name: document.getElementById("first-name").value,
+            last_name: document.getElementById("last-name").value,
+            email: document.getElementById("email").value,
+            phone: document.getElementById("phone").value,
+            property: document.getElementById("Property").value,
+            occupancy_status: finalOccupancyValue
+        };
+
+        // Disable submit button and set submitting flag
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending...";
+        isSubmitting = true;
+
+        emailjs
+            .send("service_lzxuyvi", "template_ergmivp", formData)
+            .then(
+                function (response) {
+                    alert("Message sent successfully!");
+                    contactForm.reset();
+                    otherMessageGroup.style.display = 'none';
+                },
+                function (error) {
+                    alert("Failed to send message. Please try again.");
+                    console.error("EmailJS error:", error);
+                }
+            )
+            .finally(() => {
+                
+                submitBtn.disabled = false;
+                submitBtn.textContent = "Submit";
+                isSubmitting = false;
+            });
+    });
 });
